@@ -1,0 +1,382 @@
+@font-face {
+    font-family: "FuentePrimaria";
+    src: url(../fonts/Righteous/Righteous-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "FuenteSecundaria";
+    src: url(../fonts/Urbanist/Urbanist-VariableFont_wght.ttf);
+}
+
+main {
+    background-image: url(../images/bg.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-custom {
+    background-color: #303030;
+}
+
+.texto-nav {
+    color: antiquewhite;
+    font-family: "FuenteSecundaria";
+    transition: 0.3s;
+}
+
+.nav-link :hover {
+    font-size: 4vh !important;
+}
+
+.intro {
+    height: 100vh;
+    width: auto;
+    padding-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5%;
+    margin-bottom: 3%;
+    color: rgb(91, 84, 26);
+    margin-top: 20vh;
+    padding-top: 20vh;
+}
+
+.texto h1 {
+    font-weight: 400;
+    font-size: 15vh;
+    padding-bottom: 3%;
+    font-family: "FuentePrimaria";
+    text-align: center;
+}
+
+.texto p {
+    text-align: center;
+    font-size: 4vh;
+    font-family: "FuenteSecundaria";
+}
+
+.servicios {
+    margin-top: 15vh;
+    padding-top: 15vh;
+}
+
+.cards {
+    border-radius: 30px;
+    object-fit: cover;
+    margin: 4vh;
+    height: 40vh;
+    width: auto;
+    background-color: rgb(118, 109, 56);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.cards:hover {
+    height: 45vh;
+    width: auto;
+    box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.3);
+}
+
+.cards img {
+    height: 100%;
+    width: auto;
+}
+
+.cards_b {
+    border-radius: 30px;
+    object-fit: cover;
+    margin: 4vh;
+    height: 40vh;
+    width: auto;
+    background-color: rgb(174, 169, 126);
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.cards_b:hover {
+    height: 45vh;
+    width: auto;
+    box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.3);
+}
+
+.cards_b img {
+    height: 100%;
+    width: auto;
+}
+
+.text_card {
+    padding-bottom: 4vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.text_card p {
+    text-align: center;
+    font-weight: 400;
+    justify-content: center;
+    font-family: "FuenteSecundaria";
+    font-size: 35px;
+}
+
+.text_card .text_card_title {
+    display: flex;
+    padding-top: 5%;
+    padding-left: 3%;
+    font-size: 60px;
+}
+
+.archivos_texto{
+    margin-top: 15vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "FuenteSecundaria";
+    font-size: 5vh;
+}
+
+.archivos{
+    width: auto;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30vh;
+    margin-top: 5vh;
+}
+
+.archivos img{
+    width: auto;
+    height: 90%;
+    transition: 0.3s;
+}
+
+.archivos img:hover{
+    width: auto;
+    height: 100%;
+    cursor: pointer;
+}
+
+.contacto {
+    margin-top: 15vh;
+    padding-top: 9%;
+    padding-bottom: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15%;
+}
+
+.contacto_izquierda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+}
+
+.contacto_izquierda img {
+    width: 65%;
+    height: 65%;
+}
+
+.contacto_izquierda_datos {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.datos_contacto{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+.datos {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: row;
+    gap: 2vh;
+}
+
+.datos img {
+    height: 4vh;
+    width: 4vh;
+}
+
+.datos a{
+    text-decoration: none;
+}
+
+.datos a p {
+
+    color: #303030;
+    font-size: 3vh;
+    font-weight: 500;
+    font-family: "FuenteSecundaria";
+    margin: 0 !important;
+}
+
+.form_contacto {
+    margin: 20px;
+    border-radius: 15px;
+    padding: 30px;
+    width: 75vh;
+}
+
+.input_form_contacto {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input_form_contacto input {
+    border-radius: 15px;
+    background-color: #d09c2c27;
+    width: 100%;
+    height: 40px;
+}
+
+.input_form_contacto placeholder {
+    color: #000;
+    transform: translateX(3%);
+}
+
+.texto_form_contacto textarea{
+    border-radius: 15px;
+    background-color: #d09c2c27;
+    margin-top: 3%;
+    width: 100%;
+    height: 20vh;
+}
+
+.form_boton{
+    border-radius: 15px;
+    color: antiquewhite;
+    background-color: #303030;
+}
+
+.footer {
+    background-color: rgb(118, 109, 56);
+    height: 4vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 100%;
+}
+
+.footer p{
+    margin: 0 !important;
+    font-weight: 500;
+    padding-left: 1%;
+}
+
+@media (max-width:1024px) {
+
+    .intro img{
+        height: auto;
+        width: 75vh;
+    }
+
+    .texto{
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .texto h1 {
+        font-weight: 400;
+        font-size: 6vh;
+    }
+
+    .texto p {
+        font-size: 2vh;
+    }
+
+    .servicios{
+        margin-top: 0;
+    }
+
+    .cards:hover {
+        height: initial;
+        width: auto;
+        box-shadow: none;
+    }
+
+    .cards_b:hover {
+        height: initial;
+        width: auto;
+        box-shadow: none;
+    }
+
+    .text_card {
+        padding: 1vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text_card p {
+        font-size: 2vh;
+    }
+
+    .text_card_title {
+        margin: 0% !important;
+    }
+
+    .carrusel_texto {
+        display: none;
+    }
+
+    .datos_contacto{
+        width: 100%;
+    }
+}
+
+@media (max-width:868px) {
+
+    .intro img{
+        height: auto;
+        width: 50vh;
+    }
+
+    .texto{
+        margin-top: 0;
+    }
+
+    .servicios{
+        margin-top: 0;
+    }
+
+    .text_card_title{
+        font-size: 40px !important;
+    }
+
+    .text_card{
+        gap: 3vh;
+    }
+
+    .datos a p{
+        font-size: 2vh;
+    }
+}

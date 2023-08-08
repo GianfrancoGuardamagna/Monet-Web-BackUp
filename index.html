@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="images/Favicon Monet.png" type="image/png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Mönet</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top navbar-custom">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="images/Favicon Monet.png" alt="icono monet"></a>
+      <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item p-2">
+            <a class="nav-link" href="#QS">
+              <p class="texto-nav fs-2">¿Quienes Somos?</p>
+            </a>
+          </li>
+          <li class="nav-item p-2">
+            <a class="nav-link" href="#S">
+              <p class="texto-nav fs-2">Servicios</p>
+            </a>
+          </li>
+          <li class="nav-item p-2">
+            <a class="nav-link" href="#C">
+              <p class="texto-nav fs-2">Clientes</p>
+            </a>
+          </li>
+          <li class="nav-item p-2">
+            <a class="nav-link" href="#CO">
+              <p class="texto-nav fs-2">Contacto</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <section class="intro animate__animated animate__rubberBand" id="logo">
+      <img src="images/Logo.png" alt="logo_nuestro">
+    </section>
+    <section class="texto" id="QS">
+      <h1>¿Quienes Somos?</h1>
+      <p>Mönet es un innovador estudio de diseño gráfico y desarrollo web que combina la creatividad con la tecnología
+        para brindar soluciones visuales impactantes y funcionales. En Mönet, creemos en el poder de la estética y la
+        funcionalidad para crear una presencia en línea memorable y exitosa para nuestros clientes. Nuestro talentoso
+        equipo de diseñadores gráficos y desarrolladores web altamente capacitados se dedica a comprender las
+        necesidades y objetivos de cada cliente para crear experiencias visuales únicas y atractivas. Ya sea que
+        necesites un logotipo distintivo, un diseño de marca coherente o una página web a medida, en Mönet nos
+        aseguramos de que tu identidad y visión se vean reflejadas en cada elemento creado.</p>
+    </section>
+    <section class="servicios" id="S">
+      <div class="cards">
+        <img src="images/icono card 1.png" alt="icono diseño gráfico">
+        <div class="text_card">
+          <p class="text_card_title">Diseño Gráfico</p>
+          <p>Nuestro equipo se encargará de diseñarte un logo llamativo tanto como comunicativo. Se te armará un manual
+            de marca que cuenta con tu propia paleta de colores, tipografía, papelería institucional e indumentaria,
+            entre otros. </p>
+        </div>
+      </div>
+      <div class="cards_b">
+        <img src="images/icono card 2.png" alt="icono marketing digital">
+        <div class="text_card">
+          <p class="text_card_title">Marketing Digital</p>
+          <p>Te creamos tus redes, las gestionamos, creamos campañas de difusión y te ayudamos a llegar a tu publico
+            objetivo.</p>
+        </div>
+      </div>
+      <div class="cards">
+        <img src="images/icono card 3.png" alt="icono desarrollo web">
+        <div class="text_card">
+          <p class="text_card_title">Desarrollo Web</p>
+          <p>Con nosotros podés tener tu sitio, que se ajuste a tus necesidades y sea tu carta de presentación para el
+            mundo web.</p>
+        </div>
+      </div>
+      <div class="cards_b">
+        <img src="images/icono card 4.png" alt="icono servicios digitales">
+        <div class="text_card">
+          <p class="text_card_title">¡Consultanos por otros servicios digitales!</p>
+          <p>Packaging personalizado, diseño de regalos institucionales, plotteo de vehiculo, diseño de marquesina,
+            diseño de menú para restaurantes...</p>
+        </div>
+      </div>
+    </section>
+<section>
+  <div class="archivos_texto">
+    <p>Hacé click en las imagenes para ver como trabajamos</p>
+  </div>
+  <div class="archivos">
+    <img src="images/icono mkd.svg" alt="icono marketing digital">
+    <img src="images/icono dw.svg" alt="icono desarrollo web">
+    <img src="images/icono dg.svg" alt="icono diseño gráfico">
+  </div>
+</section>
+    <section class="contacto" id="CO">
+      <div class="contacto_izquierda">
+        <img src="images/CONSULTA.png" alt="imagen_consulta">
+      </div>
+    <div class="form_contacto">
+      <form>
+        <div class="input_form_contacto">
+          <input type="text" placeholder="Nombre" name="firstname">
+          <input type="number" placeholder="Ingrese su numero" name="contacto">
+          <input type="email" placeholder="Correo Electrónico" name="mail">
+        </div>
+        <div class="texto_form_contacto">
+          <textarea type="text" placeholder="Dejanos tu consulta" name="texto"></textarea>
+        </div>
+        <button class="form_boton">Enviar</button>
+      </form>
+    </div>
+    </section>
+    <section class="datos_contacto">
+      <div class="datos">
+        <img src="images/icono whastsapp.png" alt="Icono whastsapp">
+        <a href="https://wa.me/+5492233436574">
+          <p>223 3436574</p>
+        </a>
+      </div>
+      <div class="datos">
+        <img src="images/icono instagram.png" alt="Icono instagram">
+        <a href="https://instagram.com/hola.monet">
+          <p>@hola.monet</p>
+        </a>
+      </div>
+      <div class="datos">
+        <img src="images/icono mail.png" alt="Icono mail">
+        <a href="mailto:holamonetdigital@gmail.com">
+          <p>holamonetdigital@gmail.com</p>
+        </a>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <p>© 2023, Mönet Comunicación Digital, Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
